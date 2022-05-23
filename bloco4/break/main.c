@@ -1,65 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	int i, vacinado = 4;
+	int i, vacinados = 4;
 	
 	for(i = 0; i < 10; i++){
-		
-		if ( i == vacinado){
+		if (i == vacinados){
 			break;
 		}
-		
-		printf("Vacinar paciente %i \n", i);
+		printf("Vacinar paciente %d\n", i);
 	}
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
